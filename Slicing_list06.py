@@ -5,4 +5,6 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return
+    return list1[:len(list1):3]
+list1=['a', 'b', 'c', 'd', 'e', 'f']
+print(main(list1))
